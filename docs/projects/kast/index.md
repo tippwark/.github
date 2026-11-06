@@ -6,12 +6,12 @@ It was born out of the idea of having a simple way to process Kubernetes manifes
 
 # Usage
 
-  kast <command> [flags]
+  `kast <command> [flags]`
 
 ## Commands
 
-  kast render [flags] <template|dir>
-  kast version [flags]
+  `kast render [flags] <template|dir>`
+  `kast version [flags]`
 
 &lt;template|dir&gt; can be a file or a directory.
 If a directory is specified, all .yml/.yaml files in that directory will be processed.
@@ -173,13 +173,13 @@ Copyright (C) 2026 tippwark contributors
 kast is licensed under the Apache License, Version 2.0. You may use, modify and
 redistribute it — including in proprietary and commercial products — provided that
 you comply with the License. In particular, you must retain the copyright,
-attribution and license notices and, where applicable, pass on the contents of the
-[NOTICE](NOTICE) file. This means: if you reuse kast or parts of its code in your
+attribution and license notices and, where applicable, pass on the contents of any
+NOTICE file included with the project. This means: if you reuse kast or parts of its code in your
 own product, you must state that your product uses code from kast.
 
 Unless required by applicable law or agreed to in writing, kast is distributed on an
 "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND. The full license text is
-provided in the [LICENSE](LICENSE) file; see <https://www.apache.org/licenses/LICENSE-2.0>.
+available in the [LICENSE](https://github.com/tippwark/kast/blob/main/LICENSE) file; see <https://www.apache.org/licenses/LICENSE-2.0>.
 
 ## Third-party components
 
