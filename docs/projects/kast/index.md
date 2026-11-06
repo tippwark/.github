@@ -6,12 +6,12 @@ It was born out of the idea of having a simple way to process Kubernetes manifes
 
 # Usage
 
-  kast <command> [flags]
+  `kast <command> [flags]`
 
 ## Commands
 
-  kast render [flags] <template|dir>
-  kast version [flags]
+  `kast render [flags] <template|dir>`
+  `kast version [flags]`
 
 &lt;template|dir&gt; can be a file or a directory.
 If a directory is specified, all .yml/.yaml files in that directory will be processed.
